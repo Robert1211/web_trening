@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 div.wrapper{
     max-width: 1240px;
@@ -9,26 +10,19 @@ div.wrapper{
 }
 /* nav */
 nav{
-    margin: 20px 0;
-    text-align: right;
+    font-size: 0;
 }
-nav a {
+nav a{
     display: inline-block;
-    font-size: 22px;
+    width: 25%;
+    background-color: grey;
+    font-size: 28px;
+    padding: 20px;
+    font-family: arial;
     text-decoration: none;
     text-transform: uppercase;
-    color: brown;
-    font-family: 'Orbitron', sans-serif;
-    padding: 10px 20px;
-    margin: 0 15px;
-    background-color: aqua;
-    }
-    
-a.btn4 {
-    border: 2px solid brown;
-    margin-left: 100px;
-    margin-left: 150px;
 }
+
 /* header */
 header{
     height: 300px;
