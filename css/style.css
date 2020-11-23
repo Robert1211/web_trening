@@ -15,12 +15,39 @@ nav{
 nav a{
     display: inline-block;
     width: 25%;
+    height: 40px;
     background-color: grey;
-    font-size: 28px;
-    padding: 20px;
+    font-size: 18px;
+    /* padding: 20px; */
     font-family: arial;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    /* line-height: 30px; */
+    /* padding: 20px 0; */
+}
+
+
+
+nav a.btn1{
+    background-color: burlywood;
+}
+nav a.btn2{
+    background-color: deepskyblue;
+}
+nav a.btn3{
+    background-color: darkcyan;
+}
+nav a.btn4{
+    background-color: royalblue;
+}
+
+nav a:hover{
+    border-bottom: 8px solid black;
+    color: black;
+    background-color: white;
 }
 
 /* header */
