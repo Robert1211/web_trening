@@ -11,10 +11,57 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 /* Nawigacja */
+nav{
+    max-width: 1440px;
+    margin: 30px auto;
+    text-align: right;
+    
+}
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+    
+
+}
+
+nav a.reservation{
+    padding: 10px 30px;
+    border: 2px solid #555;
+    margin-right: 50px;
+    margin-left: 80px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+nav a:hover{
+    border-bottom: 2px solid #555;
+    color: black;
+}
+nav a.reservation:hover{
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+
+}
 
 /* Header */
 
 header {
+  height: 40vh;  
   background-image: url('/carman.jpg');
-  
+  background-size: cover;
 }
+header h1{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
