@@ -81,6 +81,8 @@ main section.features{
     background-color: beige;
     padding-bottom: 30px;
 }
+
+
 main div.feature{
     display: inline-block;
     width: 33.33%;
